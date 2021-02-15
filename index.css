@@ -1,0 +1,44 @@
+.form{
+    width: 40%;
+    height: 222px;
+    background-color: #62864773;
+    margin: 5px auto 5px auto;
+}
+
+.filter{
+    width: 40%;
+    height: 222px;
+    background-color: #9c884b;
+    margin: 5px auto 5px auto;
+}
+
+.filter>div{
+    width: 50%;
+    margin: auto;
+}
+
+.form>h2{
+    text-align: center;
+}
+
+#form-fields{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-control{
+    width: 44%;
+    margin: auto;
+}
+
+.form-control>input{
+    margin: 5px;
+    border-radius: .25rem;
+    display: block;
+    border: 1px solid rgb(134 104 60);
+    padding: 0.375rem .75rem;
+}
+
+
+

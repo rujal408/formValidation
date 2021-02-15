@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Regex Validation</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            <h2>SignIn Form</h2>
+            <form id="myForm" onsubmit="handleForm(event)">
+                <div id="form-fields">
+                    <div class="form-control">
+                        <input type="text" id="email" name="email" onkeyup="handleChange(event)">
+                        <div id="error-email"></div>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="password" name="password" onkeyup="handleChange(event)">
+                        <div id="error-password"></div>
+                    </div>
+                    <div class="form-control">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="filter">
+        <div>
+            <h2 style="text-align: center;">Filter Data</h2>
+            <form id="carForm">
+                <input type="text" id="car" name="car">
+                <button type="submit" onclick="filterSubmit(event)">Filter</button>
+            </form>
+        </div>
+        <div id="viewData"></div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
